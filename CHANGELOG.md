@@ -1,7 +1,9 @@
 # @nhui/cn
 
-## 0.0.2
+## 0.1.0
 
-### Patch Changes
+### Minor Changes
 
-- add licence
+- util for merging tailwind classes
+
+
