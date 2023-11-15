@@ -1,0 +1,24 @@
+{
+  "name": "@nhui/cn",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "vitest",
+    "test": "vitest run",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc --noEmit",
+    "ci": "npm run lint && npm run test && npm run build"
+  },
+  "keywords": [],
+  "author": "Nathan Hui",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  }
+}
